@@ -19,12 +19,17 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Carlos Kayser
-email: carloshkayser@gmail.com
 description: "Cloud, Data, and more."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "carloshkayser.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+author: Carlos Kayser
+email: carloshkayser@gmail.com
+avatar: "https://avatars.githubusercontent.com/u/17982392?v=4"
+round-avatar: true
 twitter_username: carloshkayser_
 github_username:  carloshkayser
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "carloshkayser.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
