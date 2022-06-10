@@ -33,8 +33,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
   
-github:
-  repo: https://github.com/carloshkayser/carloshkayser.github.io
+repository: https://github.com/carloshkayser/carloshkayser.github.io
 
 # Exclude from processing.
 # The following items will not be processed, by default.
