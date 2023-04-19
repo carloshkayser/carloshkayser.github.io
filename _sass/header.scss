@@ -1,0 +1,55 @@
+// Adjusting the conference icon inside the navbar
+.navbar {
+    background-color: #e9e9e9;
+    #sbc_logo {
+        width: 60px;
+    }
+    #sbac_logo {
+        margin-left: 1rem;
+        width: 150px;
+    }
+    .navbar-brand {
+        font-weight: 900;
+    }
+}
+
+// Defining the header settings (background, margin, padding, etc.)
+header {
+    background: url(../img/portoalegre.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #777777;
+
+    padding-top: 14rem;
+    padding-bottom: 7rem;
+
+    color: white;
+
+    // Conference logo
+    img {
+        width: 30vw;
+    }
+
+    // Conference name
+    h1 {
+        font-weight: 900;
+        font-size: 4rem;
+    }
+    h2 {
+        font-weight: 300;
+        font-size: 2rem;
+    }
+    h3 {
+        span {
+            padding: 0.75rem;
+            background-color: white;
+            color: black;
+            font-weight: 300;
+            font-size: 1rem;
+            border-radius: 4rem;
+        }
+    }
+}

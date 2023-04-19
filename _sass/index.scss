@@ -1,0 +1,149 @@
+#news {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: $gray-100;
+
+    h1 {
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+#about_the_conference {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: $gray-100;
+
+    h1 {
+        margin-left: 1.5rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    blockquote {
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+        border-left: 5px solid #333333;
+        padding-left: 1rem;
+    }
+}
+
+#about_host_city {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    h1 {
+        font-weight: 900;
+        font-size: 1.5rem;
+    }
+}
+
+#aims_and_scope {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: $gray-200;
+
+    h1 {
+        font-weight: 900;
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+#important_dates {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+    h1 {
+        font-weight: 900;
+        font-size: 3rem;
+    }
+    p {
+        margin-top: 3rem;
+        span {
+            background-color: $gray-800;
+            color: white;
+
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+
+            border-radius: 4rem;
+        }
+    }
+}
+
+#submission_instructions {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: $gray-400;
+
+    h1 {
+        font-weight: 900;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+    h2 {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    h3 {
+        margin-top: 2rem;
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+
+    #research_paper_submission {
+        img {
+            width: 65%;
+            filter: grayscale(1);
+        }
+    }
+}
+
+#keynote_speakers {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    h1 {
+        font-weight: 900;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        margin-bottom: 2rem;
+    }
+
+    .keynote_speaker {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        padding-top: 15rem;
+        padding-bottom: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        color: white;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        background-color: #777777;
+
+        border-radius: 1.25rem;
+
+        h2 {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        h3 {
+            font-size: 0.7rem;
+            font-weight: 300;
+        }
+    }
+}
