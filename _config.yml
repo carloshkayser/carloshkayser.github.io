@@ -1,16 +1,12 @@
+# Website's base hostname and protocol (e.g.: http://example.com)
+url: "https://carloshkayser.github.io"
+
+# Website's subpath (e.g.: /blog)
+baseurl: "/"
+
 # Website specifications
 title: Carlos Kayser
 description: "Python, Big Data, Cloud & Edge Computing, and more."
-
-author: Carlos Kayser
-email: carloshkayser@gmail.com
-avatar: "https://avatars.githubusercontent.com/u/17982392?v=4"
-round-avatar: true
-twitter_username: carloshkayser_
-github_username:  carloshkayser
-
-url: "https://carloshkayser.github.io" # Website's base hostname and protocol (e.g.: http://example.com)
-baseurl: "/" # Website's subpath (e.g.: /blog)
 
 # Website collections
 # collections_dir: collections
