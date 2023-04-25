@@ -2,4 +2,4 @@ install:
 	bundle install
 
 run:
-	bundle exec jekyll serve --livereload
+	bundle exec jekyll serve --watch --livereload --incremental
