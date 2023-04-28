@@ -2,32 +2,17 @@ html,
 body {
   height: 100%;
 }
-// body {
-//     position: relative;
-//     height: 100%;
-//     min-height: 100% !important;
-// }
 
 #introduction {
-  // height: 100vh;
-  // padding-top: 15rem;
-  // padding-bottom: 10rem;
-
   h1 {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 5vw, 2rem);
     font-weight: 600;
-    // text-align: left;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     font-weight: 300;
-    // text-align: left;
   }
-
-  // img {
-  //     width: 80%;
-  // }
 
   #profile-photo {
     width: 30%;
@@ -53,24 +38,17 @@ body {
 
   @media screen and (max-width: 575px) {
     h1 {
-      font-size: 1.5rem;
       text-align: center;
     }
 
     h2 {
-      font-size: 1rem;
       text-align: center;
     }
 
     #profile-photo {
-      width: 30%;
       border-radius: 50%;
       margin-bottom: 1rem;
     }
-
-    // img {
-    //     padding-top: 5rem;
-    // }
   }
 }
 
