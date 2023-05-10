@@ -2,7 +2,7 @@
 url: "https://carloshkayser.github.io"
 
 # Website's subpath (e.g.: /blog)
-baseurl: "/"
+baseurl: ""
 
 # Website specifications
 title: Carlos Kayser
