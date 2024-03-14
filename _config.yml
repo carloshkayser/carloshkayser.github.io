@@ -5,8 +5,8 @@ url: "https://carloshkayser.github.io"
 baseurl: "/"
 
 # Website specifications
-title: Carlos Kayser
-description: "Python, Big Data, Cloud & Edge Computing, and more."
+title: Kayser et al
+description: "Python, Big Data, Machine Learning, Cloud & Edge Computing, and more."
 
 locale: en_US
 
@@ -30,8 +30,6 @@ social:
 sass:
   sass_dir: _sass
   style: compressed
-
-
 
 # Jekyll plugins
 plugins:
