@@ -17,8 +17,6 @@ social:
     - https://github.com/carloshkayser
     - https://linkedin.com.br/in/carloshkayser
 
-# google_site_verification: 
-
 # Website collections
 # collections_dir: collections
 # collections:
@@ -35,6 +33,7 @@ sass:
 plugins:
   - jekyll-seo-tag # https://github.com/jekyll/jekyll-seo-tag
   - jekyll-sitemap # https://github.com/jekyll/jekyll-sitemap
+
   # - jekyll-feed
   # - jekyll-remote-theme
   # - jekyll-include-cache
