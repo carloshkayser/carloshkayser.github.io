@@ -19,10 +19,13 @@ social:
 
 # Website collections
 # collections_dir: collections
-# collections:
-#     news:
-#     keynote_speakers:
-#         sort_by: order
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title
+    # sort_by: date
+    # reverse: true
+
 
 # Website SASS settings
 sass:

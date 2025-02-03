@@ -4,6 +4,24 @@ title: "Posts"
 permalink: /posts/
 ---
 
-<br /><br /><br /><br />
-<h1 class="text-center">TBD</h1>
-<br /><br /><br /><br />
+<section id="posts">
+
+  <nav class="breadcrumb">
+    <p>
+      <span><a href="/">home</a> &nbsp; / &nbsp;</span>
+      <span><a href="/posts">posts</a></span>
+    </p>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="mb-4">Posts</h1>
+    <div class="list-group">
+      {% for post in site.posts %}
+      <a href="{{ post.url }}" class="list-group-item list-group-item-action">
+        <h5 class="mb-1">{{ post.title }}</h5>
+        <small>{{ post.date | date: "%B %d, %Y" }}</small>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
