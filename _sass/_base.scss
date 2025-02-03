@@ -581,6 +581,11 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+
+  // make it adjustable for different screen sizes
+  @media (max-width: 768px) {
+    font-size: 1.8rem;
+  }
 }
 
 .post-list {

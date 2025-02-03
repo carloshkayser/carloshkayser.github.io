@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-subtitle: <i>PhD Candidate and MSc in Computer Science | Software & Data Engineer</i>
+subtitle: <i>PhD Candidate and MSc in Computer Science<br>Software & Data Engineer</i>
 
 profile:
   align: left
