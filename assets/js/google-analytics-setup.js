@@ -1,1 +1,1 @@
-function gtag(){window.dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","{{ site.google_analytics }}");
+function gtag(){window.dataLayer.push(arguments)}function getQueryParam(a){return new URLSearchParams(window.location.search).get(a)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","{{ site.google_analytics }}");const source=getQueryParam("utm_source");source&&gtag("event","page_view",{utm_source:source});
