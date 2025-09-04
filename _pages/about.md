@@ -30,8 +30,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a Ph.D. candidate in Computer Science at [Pontifical Catholic University of Rio Grande do Sul (PUCRS)](https://grin-pucrs.github.io/), Porto Alegre, Brazil, in the [Network, Infrastructure and Cloud Computing Research Group (GRIN)](https://grin-pucrs.github.io/) led by [Prof. Dr. Tiago Ferreto](https://www.pucrs.br/pesquisadores/tiago-coelho-ferreto/).
+I am currently a Ph.D. candidate in Computer Science at [Pontifical Catholic University of Rio Grande do Sul (PUCRS)](https://pucrs.br/), Porto Alegre, Brazil, in the [Network, Infrastructure and Cloud Computing Research Group (GRIN)](https://grin-pucrs.github.io/) led by [Prof. Dr. Tiago Ferreto](https://www.pucrs.br/pesquisadores/tiago-coelho-ferreto/).
 
-Currently, I am focused on optimizing **Data Stream Processing Applications on Edge Computing**, advised by [Prof. Dr. Tiago Ferreto](https://www.pucrs.br/pesquisadores/tiago-coelho-ferreto/) (PUCRS) and [Prof. Dr. Marcos Assunção](https://www.marcosassuncao.com) (ÉTS).
+Currently, I am focused on optimizing **Distributed Stream Processing on Edge Computing**, advised by [Prof. Dr. Tiago Ferreto](https://www.pucrs.br/pesquisadores/tiago-coelho-ferreto/) (PUCRS) and [Prof. Dr. Marcos Assunção](https://www.marcosassuncao.com) (ÉTS).
 
 My research interests include **Big Data**, **Stream Processing**, **Machine Learning**, **Algorithms**, and **Edge & Cloud Computing**.
