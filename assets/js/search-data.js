@@ -45,11 +45,32 @@ ninja.data = [{
           window.open("https://github.com/carloshkayser", "_blank");
         },
       },{
+        id: 'social-kaggle',
+        title: 'Kaggle',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.kaggle.com/carloshkayser", "_blank");
+        },
+      },{
+        id: 'social-lattes',
+        title: 'Lattes',
+        section: 'Socials',
+        handler: () => {
+          window.open("http://lattes.cnpq.br/2736682156708034", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/carloshkayser", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-5459-2134", "_blank");
         },
       },{
         id: 'social-scholar',
