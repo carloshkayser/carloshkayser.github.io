@@ -19,3 +19,4 @@ services:
       - .:/srv/jekyll
     environment:
       - JEKYLL_ENV=development
+    command: ["/bin/bash", "/srv/jekyll/bin/entry_point.sh"]
