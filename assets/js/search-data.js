@@ -9,21 +9,33 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "publications",
           description: "publications by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Open-source projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "projects-neuroevolution",
+          title: 'Neuroevolution',
+          description: "Evolving Artificial Neural Networks (ANN) with Genetic Algorithms using PyTorch and PyMOO.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/neuroevolution/";
+            },},{
         id: 'social-dblp',
         title: 'DBLP',
         section: 'Socials',
